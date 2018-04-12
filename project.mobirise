@@ -6,7 +6,7 @@
       "name": "mobirise3",
       "title": "Mobirise 3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#3d8eb9",
         "secondaryColor": "#bfcecb",
         "successColor": "#90a878",
         "infoColor": "#7e9b9f",
@@ -20,7 +20,9 @@
         "isScrollToTopButton": false,
         "isRtl": false
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#7ccaf3"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.6",
@@ -66,13 +68,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#307193"
+              "background": "#000000"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#3985ad!important"
+              "background": "#000000!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#3d8eb9"
+              "background": "#000000"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -95,7 +97,7 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#3d8eb9",
+            "bgColor": "#000000",
             "fontSize": "1",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -145,7 +147,7 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "overlay": true,
-            "overlayColor": "#000",
+            "overlayColor": "#000000",
             "overlayOpacity": 0.3
           },
           "media": {
@@ -193,7 +195,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#efefef",
+            "bgColor": "#7ccaf3",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -210,7 +212,8 @@
               "family": "MobiriseIcons",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#3d8eb9"
             }
           },
           "media2": {
@@ -221,7 +224,8 @@
               "family": "MobiriseIcons",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#2969b0"
             }
           },
           "media3": {
@@ -232,7 +236,8 @@
               "family": "MobiriseIcons",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#3d8eb9"
             }
           },
           "media4": {
@@ -243,7 +248,8 @@
               "family": "MobiriseIcons",
               "active": true,
               "link": "https://mobirise.com",
-              "size": 0
+              "size": 0,
+              "color": "#3d8eb9"
             }
           },
           "media5": {
@@ -298,7 +304,11 @@
           "_styles": {
             "P": {
               "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "color": "#ffffff"
+            },
+            "H4": {
+              "color": "#ffffff"
             }
           }
         },
@@ -306,13 +316,16 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
             }
           },
           "_params": {
             "showMeta": true,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff"
+            "bgColor": "#3d8eb9"
           },
           "title": "Gallery",
           "meta": "#Tadah #Workshop",
@@ -331,7 +344,7 @@
             "paddingTop": "1",
             "paddingBottom": "0",
             "filterBgColor": true,
-            "bgColor": "#efefef",
+            "bgColor": "#3d8eb9",
             "showText": false,
             "filter": false,
             "images": [
@@ -397,7 +410,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#fff",
+            "bgColor": "#7ccaf3",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5,
